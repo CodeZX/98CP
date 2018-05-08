@@ -10,6 +10,8 @@
 
 @interface LXRouteManage : NSObject
 
-LXSingletonH(LXRouteManage)
+WMSingletonH(LXRouteManage)
+
++ (UIViewController *)rootViewController;
 
 @end

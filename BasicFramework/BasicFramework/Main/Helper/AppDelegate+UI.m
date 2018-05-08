@@ -23,7 +23,7 @@
 }
 -(void)setItems
 {
-    [[UINavigationBar appearance]setBackgroundImage:[UIImage createImageWithColor:WhiteColor] forBarMetrics:UIBarMetricsDefault];
+//    [[UINavigationBar appearance]setBackgroundImage:[UIImage createImageWithColor:WhiteColor] forBarMetrics:UIBarMetricsDefault];
     NSDictionary *dic = @{NSForegroundColorAttributeName:kMainFontColor};
     [[UINavigationBar appearance] setTitleTextAttributes:dic];
     [[UINavigationBar appearance]setTintColor:kMainFontColor];
@@ -36,9 +36,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
 //    self.window.rootViewController = [[BasicMainTBVC alloc]init];
-    UserCenterViewController *VC = [[UserCenterViewController alloc]init];
-    BasicMainNC *NC = [[BasicMainNC alloc]initWithRootViewController:VC];
-    self.window.rootViewController = NC;
+//    UserCenterViewController *VC = [[UserCenterViewController alloc]init];
+//    BasicMainNC *NC = [[BasicMainNC alloc]initWithRootViewController:VC];
+    self.window.rootViewController = [LXRouteManage rootViewController];
 }
 
 -(UIImageView *)GetPortraitIMG

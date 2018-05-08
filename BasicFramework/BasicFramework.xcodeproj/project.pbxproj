@@ -10,6 +10,9 @@
 		1859A52220A1529B00FFB7EF /* SDLaunchWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859A4FB20A1529B00FFB7EF /* SDLaunchWebViewController.m */; };
 		1859A52320A1529B00FFB7EF /* SDLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859A4FC20A1529B00FFB7EF /* SDLaunchViewController.m */; };
 		1859A52420A1529B00FFB7EF /* 进入应用.png in Resources */ = {isa = PBXBuildFile; fileRef = 1859A4FE20A1529B00FFB7EF /* 进入应用.png */; };
+		1859A53820A1700D00FFB7EF /* LXRouteManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859A53720A1700D00FFB7EF /* LXRouteManage.m */; };
+		1859A53F20A1791E00FFB7EF /* PiazzaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859A53E20A1791E00FFB7EF /* PiazzaViewController.m */; };
+		1859A54220A17A1300FFB7EF /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1859A54120A17A1300FFB7EF /* HomeViewController.m */; };
 		186478B6209996D500D49EE5 /* UserCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186478B5209996D500D49EE5 /* UserCenterViewController.m */; };
 		186478B920999FA600D49EE5 /* UserCenterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 186478B820999FA600D49EE5 /* UserCenterTableViewCell.m */; };
 		186478BF2099B70600D49EE5 /* UserCenterTableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 186478BE2099B70600D49EE5 /* UserCenterTableViewCellModel.m */; };
@@ -67,7 +70,6 @@
 		365A395A1FA703E5009B2170 /* YGOptionPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 365A39571FA703E4009B2170 /* YGOptionPicker.m */; };
 		365A395B1FA703E5009B2170 /* YGDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 365A39581FA703E4009B2170 /* YGDatePicker.m */; };
 		365A395E1FA706A1009B2170 /* lame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365A395D1FA706A1009B2170 /* lame.framework */; };
-		36650FAC1E0791E50099CD92 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36650FAB1E0791E50099CD92 /* UserModel.m */; };
 		366787FC1E0A4BAF0044CE85 /* Placeholder in Resources */ = {isa = PBXBuildFile; fileRef = 366787FB1E0A4BAF0044CE85 /* Placeholder */; };
 		3675217A1E4D5A4900F2117C /* UIViewController+ChangeColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3675213C1E4D5A4900F2117C /* UIViewController+ChangeColor.m */; };
 		3675217B1E4D5A4900F2117C /* DKNightVersionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3675213F1E4D5A4900F2117C /* DKNightVersionManager.m */; };
@@ -175,6 +177,12 @@
 		1859A4FD20A1529B00FFB7EF /* SDLaunchWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLaunchWebViewController.h; sourceTree = "<group>"; };
 		1859A4FE20A1529B00FFB7EF /* 进入应用.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "进入应用.png"; sourceTree = "<group>"; };
 		1859A52120A1529B00FFB7EF /* SDLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLaunchViewController.h; sourceTree = "<group>"; };
+		1859A53620A1700D00FFB7EF /* LXRouteManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXRouteManage.h; sourceTree = "<group>"; };
+		1859A53720A1700D00FFB7EF /* LXRouteManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXRouteManage.m; sourceTree = "<group>"; };
+		1859A53D20A1791E00FFB7EF /* PiazzaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PiazzaViewController.h; sourceTree = "<group>"; };
+		1859A53E20A1791E00FFB7EF /* PiazzaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PiazzaViewController.m; sourceTree = "<group>"; };
+		1859A54020A17A1300FFB7EF /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		1859A54120A17A1300FFB7EF /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		186478B4209996D500D49EE5 /* UserCenterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserCenterViewController.h; sourceTree = "<group>"; };
 		186478B5209996D500D49EE5 /* UserCenterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserCenterViewController.m; sourceTree = "<group>"; };
 		186478B720999FA600D49EE5 /* UserCenterTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserCenterTableViewCell.h; sourceTree = "<group>"; };
@@ -289,8 +297,6 @@
 		365A39581FA703E4009B2170 /* YGDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YGDatePicker.m; sourceTree = "<group>"; };
 		365A39591FA703E5009B2170 /* YGOptionPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YGOptionPicker.h; sourceTree = "<group>"; };
 		365A395D1FA706A1009B2170 /* lame.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = lame.framework; sourceTree = "<group>"; };
-		36650FAA1E0791E50099CD92 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
-		36650FAB1E0791E50099CD92 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
 		366787FB1E0A4BAF0044CE85 /* Placeholder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Placeholder; sourceTree = "<group>"; };
 		3675213B1E4D5A4900F2117C /* UIViewController+ChangeColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ChangeColor.h"; sourceTree = "<group>"; };
 		3675213C1E4D5A4900F2117C /* UIViewController+ChangeColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ChangeColor.m"; sourceTree = "<group>"; };
@@ -498,6 +504,48 @@
 			path = "SDLaunch(引导页)";
 			sourceTree = "<group>";
 		};
+		1859A53520A1700D00FFB7EF /* LXRouteManage */ = {
+			isa = PBXGroup;
+			children = (
+				1859A53620A1700D00FFB7EF /* LXRouteManage.h */,
+				1859A53720A1700D00FFB7EF /* LXRouteManage.m */,
+			);
+			path = LXRouteManage;
+			sourceTree = "<group>";
+		};
+		1859A53920A1789600FFB7EF /* Piazza */ = {
+			isa = PBXGroup;
+			children = (
+				1859A53A20A1789600FFB7EF /* Controller */,
+				1859A53B20A1789600FFB7EF /* Model */,
+				1859A53C20A1789600FFB7EF /* View */,
+			);
+			path = Piazza;
+			sourceTree = "<group>";
+		};
+		1859A53A20A1789600FFB7EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1859A53D20A1791E00FFB7EF /* PiazzaViewController.h */,
+				1859A53E20A1791E00FFB7EF /* PiazzaViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1859A53B20A1789600FFB7EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1859A53C20A1789600FFB7EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		186478B02099965200D49EE5 /* UserCenter */ = {
 			isa = PBXGroup;
 			children = (
@@ -609,6 +657,8 @@
 				36410B891DC05C9300231AF5 /* HomePageVC.m */,
 				186BD62C208F1DCD004D47D4 /* DetailsViewController.h */,
 				186BD62D208F1DCD004D47D4 /* DetailsViewController.m */,
+				1859A54020A17A1300FFB7EF /* HomeViewController.h */,
+				1859A54120A17A1300FFB7EF /* HomeViewController.m */,
 			);
 			name = "Controller(控制器)";
 			path = Controller;
@@ -661,8 +711,6 @@
 		36111AAB1D6EE58C00A03BF4 /* Model(数据模型) */ = {
 			isa = PBXGroup;
 			children = (
-				36650FAA1E0791E50099CD92 /* UserModel.h */,
-				36650FAB1E0791E50099CD92 /* UserModel.m */,
 			);
 			name = "Model(数据模型)";
 			path = Model;
@@ -984,6 +1032,8 @@
 				36111A9D1D6EE58C00A03BF4 /* Home(首页) */,
 				186478B02099965200D49EE5 /* UserCenter */,
 				36111AA81D6EE58C00A03BF4 /* LogIn(登录) */,
+				1859A53520A1700D00FFB7EF /* LXRouteManage */,
+				1859A53920A1789600FFB7EF /* Piazza */,
 			);
 			name = "Main(主要)";
 			path = Main;
@@ -1737,7 +1787,6 @@
 				3675218B1E4D5A4900F2117C /* UITabBar+NightVersion.m in Sources */,
 				3679E9E91E8B452D00180014 /* ZipFileArchiveManager.m in Sources */,
 				365A39551FA7039E009B2170 /* PhotoSelectorManager.m in Sources */,
-				36650FAC1E0791E50099CD92 /* UserModel.m in Sources */,
 				367A5DFF1E7FC6810026EC3D /* GraphicBT.m in Sources */,
 				3686A8D61E724B5400FEA856 /* LYLBouncing.m in Sources */,
 				367A5DFB1E7FC65D0026EC3D /* TextView_Placeholder.m in Sources */,
@@ -1775,6 +1824,7 @@
 				363091421DE2D7E8005A9C31 /* BasicTouchID.m in Sources */,
 				36111AE01D6EE63200A03BF4 /* main.m in Sources */,
 				368E151E1EB2ED6F00765F4B /* UIViewController+BuriedPoint.m in Sources */,
+				1859A53F20A1791E00FFB7EF /* PiazzaViewController.m in Sources */,
 				365A39511FA7014D009B2170 /* LYLIMGBrowse.m in Sources */,
 				362032751DD4748700F15494 /* NSMutableAttributedString+Extension.m in Sources */,
 				3675217C1E4D5A4900F2117C /* DKNightVersionUtility.m in Sources */,
@@ -1793,11 +1843,13 @@
 				36312D111E7A7446002139B1 /* LYLCollectionViewLayout.m in Sources */,
 				3652A4501E28C22500F79333 /* NSObject+Extension.m in Sources */,
 				1859A52220A1529B00FFB7EF /* SDLaunchWebViewController.m in Sources */,
+				1859A53820A1700D00FFB7EF /* LXRouteManage.m in Sources */,
 				3679AAA01DDDB5E400169DFF /* UIView+Rotate.m in Sources */,
 				3679AAC61DDDB7C700169DFF /* UIDevice+Extension.m in Sources */,
 				361FC6A21E2DBBBE008B8402 /* UIColor+Extension.m in Sources */,
 				365A39251FA6F2B9009B2170 /* BasicConstants.m in Sources */,
 				365A394E1FA7014D009B2170 /* GWLPhotoLibrayController.m in Sources */,
+				1859A54220A17A1300FFB7EF /* HomeViewController.m in Sources */,
 				36A5303B1E8112220067F8F7 /* WKWebViewJavascriptBridge.m in Sources */,
 				365A392E1FA6FCCF009B2170 /* BasicWebVC.m in Sources */,
 				367521911E4D5A4900F2117C /* UIView+BackgroundColor.m in Sources */,
@@ -1993,7 +2045,7 @@
 				INFOPLIST_FILE = BasicFramework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Rainy.BasicFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZX.98CP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -2015,7 +2067,7 @@
 				INFOPLIST_FILE = BasicFramework/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Rainy.BasicFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZX.98CP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};

@@ -15,6 +15,11 @@
 #import "BasicMainNC.h"
 #import "BaseTabBar.h"
 
+
+#import "PiazzaViewController.h"
+#import "UserCenterViewController.h"
+#import "HomeViewController.h"
+
 @interface BasicMainTBVC ()
 
 @end
@@ -53,8 +58,21 @@
 
 - (void)addChildViewControllers
 {
-    HomePageVC *HomeVC = [[HomePageVC alloc] init];
+    HomeViewController  *HomeVC = [[HomeViewController alloc] init];
     [self setChildViewController:HomeVC Image:kHomePageVC_IMG selectedImage:kHomePageVC_Selected_IMG title:kHomePageVC_Title];
+    
+    PiazzaViewController *PiazzaVC = [[PiazzaViewController alloc] init];
+    [self setChildViewController:PiazzaVC Image:kHomePageVC_IMG selectedImage:kHomePageVC_Selected_IMG title:@"广场"];
+    
+    
+    UserCenterViewController *UserCenterVC = [[UserCenterViewController alloc] init];
+    [self setChildViewController:UserCenterVC Image:kHomePageVC_IMG selectedImage:kHomePageVC_Selected_IMG title:@"我"];
+    
+//    UserCenterViewController *UserCenterVC1 = [[UserCenterViewController alloc] init];
+//    [self setChildViewController:UserCenterVC1 Image:kHomePageVC_IMG selectedImage:kHomePageVC_Selected_IMG title:@"我"];
+//    
+//    UserCenterViewController *UserCenterVC2 = [[UserCenterViewController alloc] init];
+//    [self setChildViewController:UserCenterVC2 Image:kHomePageVC_IMG selectedImage:kHomePageVC_Selected_IMG title:@"我"];
     
 }
 
