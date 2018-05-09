@@ -43,12 +43,22 @@
 }
 - (BOOL)save {
     
+    NSString *docPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)objectAtIndex:0];
+    NSString *filePath = [docPath stringByAppendingPathComponent:@"Users.Archiver"];
+    
+    
+    return [NSKeyedArchiver archiveRootObject:self.users toFile:filePath];
+    
+}
+
+- (UserModel *)currentUser {
     
     NSString *docPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)objectAtIndex:0];
-    NSString *sqlFilePath = [docPath stringByAppendingPathComponent:@"Users.sqlite"];
+    NSString *filePath = [docPath stringByAppendingPathComponent:@"Users.Archiver"];
+    NSArray *users = [NSKeyedUnarchiver unarchiveObjectWithFile:filePath];
+    UserModel *userModel = users.lastObject;
     
-    return [self.users writeToFile:sqlFilePath atomically:NO];
-    
+    return userModel.token? userModel:nil;
 }
 
 @end

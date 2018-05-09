@@ -14,6 +14,7 @@
 {
     [coder encodeObject:self.ID forKey:@"ID"];
     [coder encodeObject:self.name forKey:@"name"];
+    [coder encodeObject:self.token forKey:@"token"];
     
 }
 
@@ -24,6 +25,7 @@
         
         self.ID = [aDecoder decodeObjectForKey:@"ID"];
         self.name = [aDecoder decodeObjectForKey:@"name"];
+        self.token = [aDecoder decodeObjectForKey:@"token"];
     }
     
     return self;
